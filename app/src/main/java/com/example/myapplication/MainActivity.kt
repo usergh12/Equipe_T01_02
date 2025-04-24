@@ -18,11 +18,12 @@ class MainActivity : AppCompatActivity() {
         val txtCadastro = findViewById<TextView>(R.id.txtCadastro)
         val txtClicker = TextViewClickHandler(this, TelaCadastro::class.java)
         val btnEntrar = findViewById<Button>(R.id.btnLogin)
-        val btnHandler = ButtonClickHandler(this, TelaRegistro::class.java)
+        val btnHandler = ButtonClickHandler(btnEntrar)
         val txtErro = findViewById<TextView>(R.id.txtFalhaLogin)
 
         txtClicker.irParaTela(txtCadastro)
-        btnHandler.erroLogin(btnEntrar, txtErro)
+        btnHandler.mudarTela(this, TelaRegistro::class.java)
+        //btnHandler.erroLogin(btnEntrar, txtErro)
 
     }
 }

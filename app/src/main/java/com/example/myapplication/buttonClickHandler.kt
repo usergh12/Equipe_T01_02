@@ -4,20 +4,18 @@ import android.view.View
 import android.widget.Button
 import android.widget.TextView
 
-class ButtonClickHandler(
-    private val context: Context,
-    private val destination: Class<*>){
+class ButtonClickHandler(private val button: Button) {
 
-    fun mudarTela(b: Button){
-        b.setOnClickListener(){
-            context.startActivity(Intent(context,destination))
+    fun mudarTela(context: Context, destination: Class<*>) {
+        button.setOnClickListener {
+            val intent = Intent(context, destination)
+            context.startActivity(intent)
         }
     }
 
-    fun erroLogin(b:Button, t: TextView){
-        b.setOnClickListener(){
-            t.visibility = View.VISIBLE
+    fun erroLogin(textView: TextView) {
+        button.setOnClickListener {
+            textView.visibility = View.VISIBLE
         }
     }
-
 }

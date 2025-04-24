@@ -20,7 +20,7 @@ class TelaCadastro : AppCompatActivity() {
         txtVoltarLoginClickHandler.irParaTela(txtVoltarLogin)
 
         val btnCadastro = findViewById<Button>(R.id.btnCadatro)
-        val btnClicker = ButtonClickHandler(this, TelaCadastroConcluido::class.java)
-        btnClicker.mudarTela(btnCadastro)
+        val btnClicker = ButtonClickHandler(btnCadastro)
+        btnClicker.mudarTela(this, TelaCadastroConcluido::class.java)
     }
 }
