@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.segurapp
 
 import org.junit.Test
 
