@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "72053830485",
+    "project_id": "segurapp-database",
+    "storage_bucket": "segurapp-database.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72053830485:android:b01ba6c65b1f94153b35dc",
+        "android_client_info": {
+          "package_name": "com.example.segurapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQKlxQG1rMxvwIqeWSAJm5J0dCyxD3xuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

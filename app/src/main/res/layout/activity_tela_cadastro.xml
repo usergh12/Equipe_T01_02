@@ -54,7 +54,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cargo"
+        android:text="Setor"
         android:textSize="20dp"
         android:textColor="#003D7A"
         android:id="@+id/txtCargo"
@@ -65,7 +65,7 @@
 
         />
     <EditText
-        android:id="@+id/edtCargo"
+        android:id="@+id/edtSetor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
@@ -83,7 +83,7 @@
         android:textSize="20dp"
         android:textColor="#003D7A"
         android:id="@+id/txtEmail"
-        app:layout_constraintTop_toBottomOf="@id/edtCargo"
+        app:layout_constraintTop_toBottomOf="@id/edtSetor"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="50dp"
         android:layout_marginTop="20dp"/>
@@ -125,7 +125,7 @@
         app:layout_constraintTop_toBottomOf="@id/txtSenha" />
 
     <Button
-        android:id="@+id/btnCadatro"
+        android:id="@+id/btnCadastro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#0000FF"
