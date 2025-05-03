@@ -55,7 +55,7 @@
             android:id="@+id/txtLegenda"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Selecione a imagem\nFormato: jpg"
+            android:text="Tirar Foto\nou\nSelecionar Imagem"
             android:gravity="bottom|center_horizontal"
             android:layout_marginBottom="10dp"
             android:textAlignment="center"
